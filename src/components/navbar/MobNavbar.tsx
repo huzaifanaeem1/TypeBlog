@@ -1,16 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./Navlink";
 import Image from 'next/image';
-import { MdMenuBook } from "react-icons/md";
+import { RiMenu3Line } from "react-icons/ri";
 const navItems = [
   { id: 1, name: "Home", slug: "/" },
   { id: 2, name: "About", slug: "/about" },
   { id: 3, name: "Blogs", slug: "/blogs" },
   { id: 4, name: "Explore", slug: "/explore" },
-  { id: 5, name: "Contact", slug: "/contact" },
+  { id: 5, name: "Contact", slug: "/contact" }, 
 ];
 
 const MobNavbar = () => {
@@ -23,7 +22,7 @@ const MobNavbar = () => {
 <div>
   
     <Image 
-      src="/images/blog-logo-01.png" 
+      src="/images/logo-01.png" 
       alt="Logo" 
       width={180}  
       height={180}  
@@ -51,14 +50,14 @@ const MobNavbar = () => {
               d="M4 6h16M4 12h16M4 18h16"
             ></path>
           </svg> */}
-          <MdMenuBook className="w-7 h-7" />
+          <RiMenu3Line className="w-7 h-7" />
         </button>
       </div>
 
       <nav
         className={`${
           isOpen ? "flex" : "hidden"
-        } flex-col items-center gap-2 text-base justify-center absolute top-16 right-0 bg-black rounded-md p-4 w-48`}
+        } flex-col items-center gap-2 text-base justify-center absolute top-16 right-0 bg-black/95 backdrop-blur-md rounded-md p-4 w-48`}
       >
         {navItems.map((item) => (
           <NavLink slug={item.slug} key={item.id} name={item.name} />

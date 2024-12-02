@@ -32,12 +32,12 @@ const navItems = [
 ];
 const Navbar = () => {
 return (
-  <header className="text-white body-font bg-white bg-opacity-25 backdrop-blur-md hidden md:flex fixed w-full top-0 left-0 z-10"
+  <header className="text-white body-font bg-primary bg-opacity-30 backdrop-blur-md hidden md:flex fixed w-full top-0 left-0 z-10"
 >
     <div className="container mx-auto flex flex-wrap p-5 items-center">
     <div>
     <Image 
-      src="/images/blog-logo-01.png" 
+      src="/images/logo-01.png" 
       alt="Logo" 
       width={200}  
       height={200}  
@@ -53,15 +53,13 @@ return (
 
       <a
         className="ml-4"
-        href="https://www.linkedin.com/in/huzaifa-naeem-8949692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/"
       >
         <Button
           type="button"
-          className="py-[2px] ml-8 bg-primary hover:bg-secondary/85 border-2 border-none shadow-md"
+          className="py-[2px] ml-8 bg-transparent hover:bg-secondary/85 border-2 border-primary shadow-md"
         >
-          Hire me
+          Subscribe
         </Button>
       </a>
     </div>

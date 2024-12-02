@@ -13,7 +13,7 @@ const Button = ({
   return (
     <button
       type={type}
-      className={`flex text-white font-medium border-0 py-2 px-4 focus:outline-none hover:bg-primary rounded-lg duration-200 text-lg ${className}`}
+      className={`flex justify-center text-white font-medium border-0 py-2 px-4 focus:outline-none rounded-lg duration-200 text-lg ${className}`}
     >
       {children}
     </button>
