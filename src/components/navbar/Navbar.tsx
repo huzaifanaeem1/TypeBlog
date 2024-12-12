@@ -8,7 +8,7 @@ import Button from "../Button";
 import { FaAngleRight } from "react-icons/fa6";
 import navItems from "./navItems";
 import categories from "@/data/categoriesData";
-import {NavLink} from ".."
+import {NavLink} from "@/components"
 
 
 
