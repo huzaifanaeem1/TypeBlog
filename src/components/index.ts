@@ -15,19 +15,10 @@ import Button from "./Button";
 import ExploreCrad from "./explore/ExploreCrad";
 import CategoryComp from "./categories/CategoryComp";
 import ContactForm from "./conact/ContactForm";
-import NavLink from "./navbar/NavLink";
-
-
-
-
-
-
-
 
 export {
   Navbar,
   MobNavbar,
-  NavLink,
   HeroSection,
   Featured,
   ExploreSection ,
