@@ -1,13 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-import NavLink from "./NavLink";
+
 import Image from "next/image";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import categories from "@/data/categoriesData";
 import navItems from "./navItems";
 import { useRouter } from "next/navigation";
 import { FaAngleRight } from "react-icons/fa6";
+import NavLink from "./NavLink";
 
 const MobNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

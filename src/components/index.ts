@@ -1,5 +1,5 @@
-import Navbar from "./navbar/Navbar";
 import MobNavbar from "./navbar/MobNavbar";
+import Navbar from "./navbar/Navbar";
 import HeroSection from "./hero-section/HeroSection";
 import ExploreSection from "./explore/ExploreSection";
 import About from "./about/About";
@@ -15,7 +15,7 @@ import Button from "./Button";
 import ExploreCrad from "./explore/ExploreCrad";
 import CategoryComp from "./categories/CategoryComp";
 import ContactForm from "./conact/ContactForm";
-import NavLink from "./navbar/NavLink";
+
 
 
 
@@ -24,7 +24,6 @@ import NavLink from "./navbar/NavLink";
 export {
   Navbar,
   MobNavbar,
-  NavLink,
   HeroSection,
   Featured,
   ExploreSection ,
