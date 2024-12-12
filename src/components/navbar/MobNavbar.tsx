@@ -8,7 +8,7 @@ import categories from "@/data/categoriesData";
 import navItems from "./navItems";
 import { useRouter } from "next/navigation";
 import { FaAngleRight } from "react-icons/fa6";
-import {NavLink} from ".."
+import {NavbarLink,} from "@/components"
 
 
 const MobNavbar = () => {
@@ -75,7 +75,7 @@ const MobNavbar = () => {
                 {isDropdownOpen && (
                   <div className="absolute top-10 left-0 bg-black text-gray-300 shadow-md rounded-lg p-4 space-y-2 w-72 max-w-xs">
                     {categories.map((category) => (
-                      <NavLink
+                      <NavbarLink
                         slug={`/categories/${category.slug}`}
                         key={category.id}
                       >
@@ -85,13 +85,13 @@ const MobNavbar = () => {
                         >
                           {category.name}
                         </button>
-                      </NavLink>
+                      </NavbarLink>
                     ))}
                   </div>
                 )}
               </div>
             ) : (
-              <NavLink
+              <NavbarLink
                 slug={item.slug}
                 key={item.id}
                 children={item.name}

@@ -8,7 +8,7 @@ import Button from "../Button";
 import { FaAngleRight } from "react-icons/fa6";
 import navItems from "./navItems";
 import categories from "@/data/categoriesData";
-import {NavLink} from "@/components"
+import {NavbarLink,} from "@/components"
 
 
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                 )}
               </div>
             ) : (
-              <NavLink key={item.id} slug={item.slug} children={item.name} />
+              <NavbarLink key={item.id} slug={item.slug} children={item.name} />
             )
           )}
         </nav>
