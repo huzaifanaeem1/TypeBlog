@@ -1,15 +1,13 @@
 import React from "react";
 import Button from "../Button";
-
-
-
 const NewSleter = () => {
   return (
     <section className="text-white body-font bg-black/95">
       <div className="container px-5 py-24 mx-auto ">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-7xl text-6xl font-medium title-font mb-4 text-white">Subscribe to Our Newsletter</h1>
-          <p className=" text-secondary lg:w-2/3 mx-auto leading-relaxed text-base">Stay Updated on the Latest DSA Tutorials and Tips! Input Form</p>
+          <h1 className="sm:text-7xl text-6xl font-medium title-font mb-4 text-white">Stay Connected with Us!</h1>
+          <p className=" text-secondary lg:w-2/3 mx-auto leading-relaxed text-base">Got any questions, feedback, or ideas you'd like to share? Don’t hesitate to reach out – we're always here to help and listen.
+          Subscribe to our newsletter for exclusive content, updates on new tutorials, and insights into the latest trends in technology. Stay informed and be part of our growing community!</p>
         </div>
         <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
           <div className="relative flex-grow w-full">

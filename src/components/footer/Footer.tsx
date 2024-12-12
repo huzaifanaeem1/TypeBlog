@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <footer className="bg-white bg-opacity-25 backdrop-blur-md text-white body-font w-full ">
+    <footer className="bg-footer backdrop-blur-md text-white body-font w-full ">
       <div className="container px-4 py-6 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center ">
         <Image 

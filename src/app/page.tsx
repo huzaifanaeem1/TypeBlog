@@ -1,10 +1,11 @@
-import { ExploreSection, FeatureSection, HeroSection, NewSletter} from "@/components/";
+import { ExploreSection, Featured, HeroSection, NewSletter} from "@/components/";
 
 export default function Home() {
   return (
+    
     <div>
       <HeroSection />
-      <FeatureSection />
+      <Featured />
       <ExploreSection />
       <NewSletter  />
       

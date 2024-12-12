@@ -12,6 +12,7 @@ export default {
         primary: "#69F9EE",
         // primary: "#EA9D1D",
         secondary: "#3FFCEE",
+        footer: "#1F4B48",
         // secondary: "#E58F06",
         background: "var(--background)",
         foreground: "var(--foreground)",
