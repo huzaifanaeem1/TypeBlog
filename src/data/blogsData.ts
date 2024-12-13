@@ -1684,7 +1684,7 @@ console.log(add(5, 10)); // Output: 15
     title: "Understanding Error Handling in TS",
     slug: "Error-Handling-in-TypeScript",
     description:
-      "Error handling in TypeScript uses try-catch, custom error types, and type safety to manage exceptions. Functions are reusable code blocks with type annotations for parameters and return types.",
+      "TypeScript uses try-catch, custom error types, and type safety for error handling. Functions are reusable with type annotations for parameters and return types.",
     imgUrl: "/images/error.jpg",
     content: `
   <main style="padding: 14px; border-radius: 8px;">
