@@ -17,7 +17,7 @@ const Contact = () => {
     }}
   />
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center sm:pb-8">
-                    <div className="lg:flex-grow sm:w-1/2  mt-44 lg:mt-16 md:pl-16 flex flex-col sm:items-center sm:text-center  sm:mb-0 items-center text-center">
+                    <div className="lg:flex-grow sm:w-1/2  mt-32 lg:mt-16 md:pl-16 flex flex-col sm:items-center sm:text-center  sm:mb-0 items-center text-center">
                         <h1 className="title-font text-4xl sm:text-6xl md:text-7xl font-bold">
                             Get in Touch
                             <br className="hidden lg:inline-block" />
