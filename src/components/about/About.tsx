@@ -7,12 +7,12 @@ const About = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/images/about.avif')",
+          backgroundImage: "url('/images/about3.jpg')",
           opacity: 0.5,
           zIndex: -1,
         }} /> 
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center sm:pb-8 mt-28">
-        <div className="lg:flex-grow sm:w-1/2 mt-32 lg:mt-28 md:pl-16 flex flex-col sm:items-center sm:text-center mb-16 sm:mb-0 items-center text-center">
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center sm:pb-8 sm:mt-32 mt-16 pt-20 sm:pt-32 lg:mt-2">
+        <div className="lg:flex-grow sm:w-1/2 mt-28 lg:mt-28 md:pl-16 flex flex-col sm:items-center sm:text-center mb-16 sm:mb-0 items-center text-center">
           <h1 className="title-font text-4xl sm:text-6xl md:text-7xl font-bold">
             About TypeBlog
           </h1>

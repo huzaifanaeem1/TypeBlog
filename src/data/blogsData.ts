@@ -596,7 +596,7 @@ console.log(intArray[0]); // Output: 1
   {
     id: 4,
     title: "TypeScript Interfaces",
-    slug: "TypeScript-Interfaces",
+    slug: "interfaces",
     description:
       "Discover how TypeScript interfaces define the structure of objects, enabling type safety and flexibility in your code. Perfect for creating scalable applications.",
     imgUrl: "/images/interface.jpg",
@@ -680,14 +680,14 @@ book.author = "Orwell"; // Error
     featured: false,
     author: "Huzaifa Naeem",
     category: "TypeScript Interfaces",
-    categorySlug: "typeScript-interfaces",
+    categorySlug: "interfaces",
   },
   {
     id: 5,
     title: "Advanced Features of TypeScript Interfaces",
     slug: "Advanced-Features-of-TypeScript-Interfaces",
     description:
-      "Unlock the power of TypeScript interfaces with advanced features like optional properties, readonly modifiers, and extending interfaces for flexible and robust code design.",
+      "TypeScript interfaces support optional properties, readonly modifiers, and extension, enabling flexible and robust code design.",
     imgUrl: "/images/interface.jpg",
     content: `
             <main style="padding: 14px; border-radius: 8px;">
@@ -759,12 +759,12 @@ console.log(rectangle.area()); // Output: 50
     featured: false,
     author: "Huzaifa Naeem",
     category: "TypeScript Interfaces",
-    categorySlug: "typeScript-interfaces",
+    categorySlug: "ts-interfaces",
   },
   {
     id: 6,
     title: "TypeScript Generics: The Ultimate Guide",
-    slug: "typeScript-generics",
+    slug: "ts-generics",
     description:
       "Harness the versatility of TypeScript Generics to create reusable and type-safe components, enabling dynamic and flexible code for various use cases.",
     imgUrl: "/images/generics.jpg",
@@ -883,11 +883,11 @@ console.log(stringStack.pop()); // Output: "B"
     featured: false,
     author: "Huzaifa Naeem",
     category: "TypeScript Generics",
-    categorySlug: "typeScript-generics",
+    categorySlug: "ts-generics",
   },
   {
     id: 7,
-    title: "Introduction to if-else Statements in TypeScript",
+    title: "if-else Statements in TS",
     slug: "Introduction-to-if-else-Statements-in-TypeScript",
     description:
       "Discover the basics of if-else statements in TypeScript, a fundamental control structure used to make decisions and execute code conditionally.",
@@ -1113,14 +1113,14 @@ for (let i = 0; i < 5; i++) {
     featured: false,
     author: "Huzaifa Naeem",
     category: "Loops in TypeScript",
-    categorySlug: "Loops-in-TypeScript",
+    categorySlug: "Loops",
   },
   {
     id: 9,
-    title: "Understanding the while Loop in TypeScript",
+    title: "Understanding the while Loop in TS",
     slug: "Understanding-the-while-Loop-in-TypeScript",
     description:
-      "Understand how the while loop works in TypeScript for executing a block of code as long as a specified condition is true. Learn how it helps control flow and repeat operations efficiently, while ensuring type safety and reducing the risk of infinite loops.",
+      "In TypeScript, a while loop repeats code while a condition is true, ensuring type safety and efficient control flow. Ensure the condition ends to avoid infinite loops.",
     imgUrl: "/images/TypeScript-while-loop.jpg",
     content: `
            <main style="padding: 14px; border-radius: 8px;">
@@ -1212,14 +1212,14 @@ while (num < 5) {
     featured: false,
     author: "Huzaifa Naeem",
     category: "Loops in TypeScript",
-    categorySlug: "Loops-in-TypeScript",
+    categorySlug: "Loops",
   },
   {
     id: 10,
-    title: "Understanding the do while Loop in TypeScript",
+    title: "do while Loop in TypeScript",
     slug: "Understanding-the-do-while-loop-in-typeScript",
     description:
-      "Explore how the do-while loop in TypeScript executes a block of code at least once, and then continues looping as long as the specified condition remains true. Learn how it ensures that the loop body runs before the condition is checked, providing a useful tool for certain repetitive tasks.",
+      "In TypeScript, a do-while loop runs the code block at least once, then continues looping while the condition is true, making it ideal for tasks requiring initial execution.",
     imgUrl: "/images/loop.jpg",
     content: `
            <main style="padding: 14px; border-radius: 8px;">
@@ -1324,14 +1324,14 @@ do {
     featured: false,
     author: "Huzaifa",
     category: "Loops in TypeScript",
-    categorySlug: "Loops-in-TypeScript",
+    categorySlug: "Loops",
   },
   {
     id: 11,
     title: "for-in Loop in TypeScript",
     slug: "for-in-loop-in-typeScript",
     description:
-      "Understand how the for-in loop works in TypeScript for iterating over object properties. Learn how it enhances object manipulation and iteration, providing a more efficient and type-safe way to work with key-value pairs.",
+      "In TypeScript, a for-in loop iterates over object properties, enabling efficient and type-safe key-value manipulation.",
     imgUrl: "/images/in.jpg",
     content: `
            <main style="padding: 14px; border-radius: 8px;">
@@ -1392,14 +1392,14 @@ for (let index in colors) {
     featured: false,
     author: "Huzaifa Naeem",
     category: "Loops in TypeScript",
-    categorySlug: "Loops-in-TypeScript",
+    categorySlug: "Loops",
   },
   {
     id: 12,
     title: "for-of Loop in Typescript",
     slug: "for-of-loop-in-typescript",
     description:
-      "Discover how the for-of loop simplifies iteration over iterable objects like arrays and strings in TypeScript. Learn how it improves code readability and offers better type safety when working with collections.",
+      "The for-of loop in TypeScript simplifies iteration over iterables like arrays and strings, improving readability and type safety.",
     imgUrl: "/images/of.jpg",
     content: `
            <main style="padding: 14px; border-radius: 8px;">
@@ -1462,14 +1462,14 @@ o
     featured: false,
     author: "Huzaifa Naeem",
     category: "Loops in TypeScript",
-    categorySlug: "Loops-in-TypeScript",
+    categorySlug: "Loops",
   },
   {
     id: 13,
     title: "Enums in TypeScript",
     slug: "Enums-in-TypeScript",
     description:
-      "Explore how enums in TypeScript provide a way to define a set of named constants. Learn how they improve code readability and enforce type safety, making it easier to manage and work with fixed values in your code.",
+      "Enums in TypeScript define named constants, improving readability and type safety for managing fixed values.",
     imgUrl: "/images/enum.jpg",
     content: `
             <main style="padding: 14px; border-radius: 8px;">
@@ -1508,15 +1508,15 @@ console.log(move); // Output: 1
     featured: false,
     author: "Huzaifa Naeem",
     category: "Enums in TypeScript",
-    categorySlug: "Enums-in-TypeScript",
+    categorySlug: "Enums",
   },
 
   {
     id: 15,
-    title: "Advanced Features of Enums in TypeScript",
+    title: "Advanced Features of Enums in TS",
     slug: "Advanced-Features-of-Enums-in-TypeScript",
     description:
-      "Delve into the advanced capabilities of enums in TypeScript, including string and numeric enums, as well as computed and heterogeneous enums. Learn how these features offer greater flexibility and control when working with enumerated values in complex applications.",
+      "TypeScript enums support string, numeric, computed, and heterogeneous values, offering flexibility and control for complex applications.",
     imgUrl: "/images/enum.jpg",
     content: `
  <main style="padding: 14px; border-radius: 8px;">
@@ -1607,7 +1607,7 @@ console.log(newUser.role); // Output: ADMIN
     featured: false,
     author: "Huzaifa Naeem",
     category: "Enums in TypeScript",
-    categorySlug: "Enums-in-TypeScript",
+    categorySlug: "Enums",
   },
   {
     id: 16,
@@ -1681,10 +1681,10 @@ console.log(add(5, 10)); // Output: 15
   },
   {
     id: 18,
-    title: "Understanding Error Handling in TypeScript",
+    title: "Understanding Error Handling in TS",
     slug: "Error-Handling-in-TypeScript",
     description:
-      "Functions are blocks of reusable code that perform specific tasks. TypeScript adds type annotations for function parameters and return types",
+      "Error handling in TypeScript uses try-catch, custom error types, and type safety to manage exceptions. Functions are reusable code blocks with type annotations for parameters and return types.",
     imgUrl: "/images/error.jpg",
     content: `
   <main style="padding: 14px; border-radius: 8px;">
@@ -1749,14 +1749,14 @@ if (result.success) {
     featured: false,
     author: "Huzaifa Naeem",
     category: "Error Handling in TypeScript",
-    categorySlug: "Error-Handling-in-TypeScript",
+    categorySlug: "Error-Handling",
   },
   {
     id: 19,
     title: " Comprehensive Error Handling Techniques in TypeScript",
     slug: "Error-Handling-in-TypeScript",
     description:
-      "Functions are blocks of reusable code that perform specific tasks. TypeScript adds type annotations for function parameters and return types",
+      "Error handling in TypeScript involves using try-catch, defining custom error types, and leveraging type safety to manage exceptions effectively.",
     imgUrl: "/images/error.jpg",
     content: `
  <main  style="padding: 14px; border-radius: 8px;">
@@ -1803,11 +1803,11 @@ console.log(getConfig({ retryCount: 5 })); // Output: 5
     featured: false,
     author: "Huzaifa Naeem",
     category: "Error Handling in TypeScript",
-    categorySlug: "Error-Handling-in-TypeScript",
+    categorySlug: "Error-Handling",
   },
   {
     id: 20,
-    title: "Object Oriented Programming (OOP) in TypeScript",
+    title: "Object Oriented Programming in TS",
     slug: "Object-Oriented-Programming-OOP-in-TypeScript",
     description:
       "OOP revolves around creating objects to model real-world entities. TypeScript provides features like classes, interfaces, and inheritance.",

@@ -167,7 +167,7 @@ const categories = [
   {
     id: 2,
     name: "INTERFACES",
-    slug: "typeScript-interfaces",
+    slug: "interfaces",
     title: "Structuring Your Code",
     description:
       "Discover how interfaces in TypeScript help define dynamic structures, ensuring flexibility and type safety.",
@@ -176,7 +176,7 @@ const categories = [
   {
     id: 3,
     name: "GENERICS",
-    slug: "typeScript-generics",
+    slug: "ts-generics",
     title: "Type-Safe Solutions",
     description:
       "Harness the power of generics to create reusable and scalable components for handling diverse data types.",
@@ -185,7 +185,7 @@ const categories = [
   {
     id: 4,
     name: "LOOPS",
-    slug: "Loops-in-TypeScript",
+    slug: "Loops",
     title: "Iterate with Efficiency",
     description:
       "Gain a solid understanding of loops, their types, and how they simplify repetitive tasks in your programs.",
@@ -194,7 +194,7 @@ const categories = [
   {
     id: 5,
     name: "ERRORS",
-    slug: "Error-Handling-in-TypeScript",
+    slug: "Error-Handling",
     title: "Handling with Grace",
     description:
       "Learn advanced error-handling strategies in TypeScript to write robust, error-resistant code.",
@@ -203,7 +203,7 @@ const categories = [
   {
     id: 6,
     name: "ENUMS",
-    slug: "Enums-in-TypeScript",
+    slug: "Enums",
     title: "Organized Constants Made Easy",
     description:
       "Streamline your code with enums, providing a clean and readable way to define a set of related constants.",

@@ -14,7 +14,7 @@ const HeroSection = () => {
     }}
   />
  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center sm:pb-8">
-  <div className="lg:flex-grow sm:w-1/2 mt-28 pt-28 sm:pt-20 lg:mt-28 md:pl-16 flex flex-col sm:items-center sm:text-center mb-14  sm:mb-0 items-center text-center">
+  <div className="lg:flex-grow sm:w-1/2 mt-20 pt-20 sm:pt-20 lg:mt-10 md:pl-16 flex flex-col sm:items-center sm:text-center mb-14  sm:mb-0 items-center text-center">
     <h1 className="title-font text-6xl sm:text-6xl md:text-7xl font-bold">
       Level Up
       <br className="hidden lg:inline-block" />
