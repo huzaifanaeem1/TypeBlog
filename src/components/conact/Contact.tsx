@@ -56,7 +56,7 @@ const Contact = () => {
                                     href="tel:+923123629391"
                                     className="text-white leading-relaxed hover:text-secondary transition-all duration-200 transform hover:scale-105"
                                 >
-                                    +92 312 3629 391
+                                    +92 000 0000 000
                                 </a>
 
                                 <h2 className="title-font font-semibold text-primary tracking-widest text-xs mt-4">SOCIAL MEDIA:</h2>
